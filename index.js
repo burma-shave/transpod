@@ -17,6 +17,14 @@ function escapeXmlAttribute(str) {
     .replace(/'/g, '&#39;');
 }
 
+function escapeXmlText(str) {
+  if (!str) return '';
+  return str.toString()
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
 app.get('/', (req, res) => {
   const { feed, limit } = req.query;
   
@@ -118,9 +126,9 @@ function transformFeed(xmlData, limit) {
 
     parser.on('text', (text) => {
       if (insideItem && !skipCurrentItem) {
-        currentItem += text;
+        currentItem += escapeXmlText(text);
       } else if (!insideItem) {
-        result += text;
+        result += escapeXmlText(text);
       }
     });
 
