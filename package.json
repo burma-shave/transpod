@@ -11,6 +11,7 @@
     "build": "npx xslt3 -t -nogo -export:podcast-transform.sef.json -xsl:podcast-transform.xsl",
     "prebuild": "echo 'Compiling XSLT stylesheet...'",
     "postbuild": "echo 'XSLT compilation complete!'",
+    "postinstall": "npm run build",
     "test": "npm run build && jest",
     "test:watch": "jest --watch",
     "test:coverage": "npm run build && jest --coverage",
@@ -18,12 +19,12 @@
   },
   "dependencies": {
     "express": "^5.1.0",
-    "saxon-js": "^2.7.0"
+    "saxon-js": "^2.7.0",
+    "xslt3": "^2.7.0"
   },
   "devDependencies": {
     "jest": "^30.0.5",
-    "supertest": "^7.1.4",
-    "xslt3": "^2.7.0"
+    "supertest": "^7.1.4"
   },
   "jest": {
     "testEnvironment": "node",
