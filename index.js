@@ -2,28 +2,15 @@ const express = require('express');
 const https = require('https');
 const http = require('http');
 const url = require('url');
-const sax = require('sax');
+const fs = require('fs');
+const path = require('path');
+const SaxonJS = require('saxon-js');
 
 const app = express();
 const port = process.env.PORT || 3000;
 
-function escapeXmlAttribute(str) {
-  if (!str) return '';
-  return str.toString()
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;');
-}
-
-function escapeXmlText(str) {
-  if (!str) return '';
-  return str.toString()
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;');
-}
+// Load compiled XSLT stylesheet
+const sefPath = path.join(__dirname, 'podcast-transform.sef.json');
 
 app.get('/', (req, res) => {
   const { feed, limit } = req.query;
@@ -32,15 +19,18 @@ app.get('/', (req, res) => {
     return res.status(400).json({ error: 'Feed URL parameter is required' });
   }
   
-  const n = parseInt(limit) || 10;
+  const n = limit ? parseInt(limit) : 10;
   
-  if (n < 1) {
+  if (isNaN(n) || n < 1) {
     return res.status(400).json({ error: 'Limit must be a positive number' });
   }
 
+  // Build the transformed feed URL
+  const transformedFeedUrl = `${req.protocol}://${req.get('host')}${req.originalUrl}`;
+
   fetchPodcastFeed(feed)
     .then(async xmlData => {
-      const transformedXml = await transformFeed(xmlData, n);
+      const transformedXml = await transformFeed(xmlData, n, transformedFeedUrl);
       res.set('Content-Type', 'application/xml');
       res.send(transformedXml);
     })
@@ -74,85 +64,51 @@ function fetchPodcastFeed(feedUrl) {
   });
 }
 
-function transformFeed(xmlData, limit) {
-  return new Promise((resolve, reject) => {
-    const parser = sax.createStream(false, { lowercase: true });
-    let result = '';
-    let currentItem = '';
-    let insideItem = false;
-    let itemCount = 0;
-    let skipCurrentItem = false;
-
-    parser.on('opentag', (node) => {
-      if (node.name === 'item') {
-        insideItem = true;
-        itemCount++;
-        skipCurrentItem = itemCount > limit;
-        
-        if (!skipCurrentItem) {
-          const attrs = Object.entries(node.attributes)
-            .map(([key, value]) => ` ${key}="${value}"`)
-            .join('');
-          currentItem = `<${node.name}${attrs}>`;
+async function transformFeed(xmlData, limit, transformedFeedUrl) {
+  try {
+    // Write XML data to a temporary file for SaxonJS.getResource
+    const tempXmlPath = path.join(__dirname, 'temp-feed.xml');
+    fs.writeFileSync(tempXmlPath, xmlData.toString());
+    
+    try {
+      // Load XML using SaxonJS.getResource for proper DOM handling
+      const xmlDoc = await SaxonJS.getResource({
+        location: tempXmlPath,
+        type: 'xml'
+      });
+      
+      // Transform using compiled SEF file
+      const result = await SaxonJS.transform({
+        stylesheetFileName: sefPath,
+        sourceNode: xmlDoc,
+        destination: 'serialized',
+        stylesheetParams: {
+          'Q{}limit': limit,
+          'Q{}transformedFeedUrl': transformedFeedUrl || ''
         }
-      } else if (insideItem && !skipCurrentItem) {
-        const attrs = Object.entries(node.attributes)
-          .map(([key, value]) => ` ${key}="${escapeXmlAttribute(value)}"`)
-          .join('');
-        currentItem += `<${node.name}${attrs}>`;
-      } else if (!insideItem) {
-        const attrs = Object.entries(node.attributes)
-          .map(([key, value]) => ` ${key}="${escapeXmlAttribute(value)}"`)
-          .join('');
-        result += `<${node.name}${attrs}>`;
+      }, 'async');
+      
+      return result.principalResult;
+    } finally {
+      // Clean up temporary file
+      try {
+        fs.unlinkSync(tempXmlPath);
+      } catch (e) {
+        // Ignore cleanup errors
       }
-    });
-
-    parser.on('closetag', (name) => {
-      if (name === 'item') {
-        insideItem = false;
-        if (!skipCurrentItem) {
-          currentItem += `</${name}>`;
-          result += currentItem;
-        }
-        currentItem = '';
-        skipCurrentItem = false;
-      } else if (insideItem && !skipCurrentItem) {
-        currentItem += `</${name}>`;
-      } else if (!insideItem) {
-        result += `</${name}>`;
-      }
-    });
-
-    parser.on('text', (text) => {
-      if (insideItem && !skipCurrentItem) {
-        currentItem += escapeXmlText(text);
-      } else if (!insideItem) {
-        result += escapeXmlText(text);
-      }
-    });
-
-    parser.on('cdata', (cdata) => {
-      if (insideItem && !skipCurrentItem) {
-        currentItem += `<![CDATA[${cdata}]]>`;
-      } else if (!insideItem) {
-        result += `<![CDATA[${cdata}]]>`;
-      }
-    });
-
-    parser.on('end', () => {
-      // Clean up excessive whitespace
-      const cleaned = result.replace(/>\s*\n\s*</g, '><').replace(/^\s*\n/gm, '');
-      resolve(cleaned);
-    });
-    parser.on('error', reject);
-
-    parser.write(xmlData);
-    parser.end();
-  });
+    }
+  } catch (error) {
+    throw new Error(`XSLT transformation failed: ${error.message}`);
+  }
 }
 
-app.listen(port, () => {
-  console.log(`Podcast feed transformer listening on port ${port}`);
-  console.log(`Usage: http://localhost:${port}/?feed=<podcast_feed_url>&limit=<number_of_episodes>`);
-});
+// Export app for testing
+module.exports = app;
+
+// Only start server if this file is run directly
+if (require.main === module) {
+  app.listen(port, () => {
+    console.log(`Podcast feed transformer listening on port ${port}`);
+    console.log(`Usage: http://localhost:${port}/?feed=<podcast_feed_url>&limit=<number_of_episodes>`);
+  });
+}

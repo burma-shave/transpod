@@ -8,10 +8,32 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx xslt3 -t -nogo -export:podcast-transform.sef.json -xsl:podcast-transform.xsl",
+    "prebuild": "echo 'Compiling XSLT stylesheet...'",
+    "postbuild": "echo 'XSLT compilation complete!'",
+    "test": "npm run build && jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "npm run build && jest --coverage",
+    "prestart": "npm run build"
   },
   "dependencies": {
     "express": "^5.1.0",
-    "sax": "^1.4.1"
+    "saxon-js": "^2.7.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5",
+    "supertest": "^7.1.4",
+    "xslt3": "^2.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ],
+    "collectCoverageFrom": [
+      "*.js",
+      "!tests/**",
+      "!node_modules/**"
+    ]
   }
 }

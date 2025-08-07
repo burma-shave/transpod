@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
+  <channel>
+    <title>The Arthur Podcast</title>
+    <link>https://pbskids.org/arthur/podcast</link>
+    <pubDate>Thu, 14 Dec 2023 11:00:00 -0000</pubDate>
+    <lastBuildDate>Sun, 27 Oct 2024 21:29:39 -0000</lastBuildDate>
+    <ttl>60</ttl>
+    <language>en</language>
+    <copyright>2022 WGBH</copyright>
+    <webMaster>help@prx.org (PRX)</webMaster>
+    <description>
+      <![CDATA[<p>Arthur Read is back and starting his own podcast! Listen in as he shares his favorite adventures with, DW, Buster and all their friends from around Elwood City.<br> <br>The Arthur Podcast is produced by GBH Kids and Gen-Z Media and distributed by PBS KIDS and PRX.</p>]]>
+    </description>
+    <managingEditor>devin_robins@WGBH.org (Devin Maverick Robins)</managingEditor>
+    <generator>PRX Feeder v1.0.0</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <image>
+      <url>https://f.prxu.org/2469/images/7f696b69-cb58-4505-97f5-91a45e88ae38/Arthur_Podcast_Logo_Corrected_09162022_FINAL_1_.jpg</url>
+      <title>The Arthur Podcast</title>
+      <link>https://pbskids.org/arthur/podcast</link>
+      <width>1400</width>
+      <height>1400</height>
+      <description>Arthur's making a podcast with his friends! Listen in to their adventures in Elwood City. </description>
+    </image>
+    <atom:link href="https://feeds.wgbh.org/2469/feed-rss.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>GBH &amp; PBS Kids</itunes:author>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="Kids &amp; Family">
+      <itunes:category text="Stories for Kids"/>
+    </itunes:category>
+    <itunes:image href="https://f.prxu.org/2469/images/2e100eb8-7c08-40b0-92db-6dbdc4fd7a5a/Arthur_Podcast_Logo_Corrected_09162022_FINAL_1_.jpg"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+      <itunes:email>Maggie.Gourville@prx.org</itunes:email>
+      <itunes:name>GBH &amp; PBS Kids</itunes:name>
+    </itunes:owner>
+    <itunes:subtitle>Arthur's making a podcast with his friends! Listen in to their adventures in Elwood City. </itunes:subtitle>
+    <itunes:summary>
+      <![CDATA[Arthur Read is back and starting his own podcast! Listen in as he shares his favorite adventures with, DW, Buster and all their friends from around Elwood City.
+ 
+The Arthur Podcast is produced by GBH Kids and Gen-Z Media and distributed by PBS KIDS and PRX.]]>
+    </itunes:summary>
+    <media:copyright>2022 WGBH</media:copyright>
+    <media:thumbnail url="https://f.prxu.org/2469/images/7f696b69-cb58-4505-97f5-91a45e88ae38/Arthur_Podcast_Logo_Corrected_09162022_FINAL_1_.jpg"/>
+    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Kids &amp; Family</media:category>
+    <podcast:guid>06d01d5b-0923-534b-80e8-dbe3a1ce0ae3</podcast:guid>
+    <item>
+      <guid isPermaLink="false">prx_2469_da8821d2-29ff-454a-8f46-9ba4d5d2f36f</guid>
+      <title>306 - Mr. Ratburn and the Special Someone</title>
+      <pubDate>Thu, 14 Dec 2023 11:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_da8821d2-29ff-454a-8f46-9ba4d5d2f36f&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>Arthur’s third grade class is shocked when they discover that Mr. Ratburn is getting married. When they overhear Mr. Ratburn talking about a wedding with a woman named Patty, the kids worry that he’s marrying someone even tougher than he is!</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/da8821d2-29ff-454a-8f46-9ba4d5d2f36f/ArtPod_306_SpecialSomeone_FINAL.mp3" type="audio/mpeg" length="22433244"/>
+      <itunes:title>Mr. Ratburn and the Special Someone</itunes:title>
+      <itunes:subtitle>Arthur’s third grade class is shocked when they discover that Mr. Ratburn is getting married. </itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:duration>15:34</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[Arthur’s third grade class is shocked when they discover that Mr. Ratburn is getting married. When they overhear Mr. Ratburn talking about a wedding with a woman named Patty, the kids worry that he’s marrying someone even tougher than he is!]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/da8821d2-29ff-454a-8f46-9ba4d5d2f36f/images/375b232c-23d4-4325-b138-3f49a41bf3bf/ArtPod_306_RatburnSpecialSomeone_1400.png"/>
+      <media:content fileSize="22433244" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/da8821d2-29ff-454a-8f46-9ba4d5d2f36f/ArtPod_306_SpecialSomeone_FINAL.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>Arthur’s third grade class is shocked when they discover that Mr. Ratburn is getting married. When they overhear Mr. Ratburn talking about a wedding with a woman named Patty, the kids worry that he’s marrying someone even tougher than he is!</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_ed9f3f4d-bf69-4846-934f-39963d78c213</guid>
+      <title>305 How the Cookie Crumbles</title>
+      <pubDate>Thu, 07 Dec 2023 11:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_ed9f3f4d-bf69-4846-934f-39963d78c213&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>Muffy is determined to win the cookie competition at this year’s Strawberry Festival. Together with her friends, she makes the perfect batch of cookies with a brand new recipe. But she’ll have to decide which is more important: getting all the credit, or keeping her friends!</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/ed9f3f4d-bf69-4846-934f-39963d78c213/ArtPod_305_CookieCrumbles_FINAL.mp3" type="audio/mpeg" length="20109084"/>
+      <itunes:title>How the Cookie Crumbles</itunes:title>
+      <itunes:subtitle>Muffy is determined to win the cookie competition at this year’s Strawberry Festival. </itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <itunes:duration>13:57</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[Muffy is determined to win the cookie competition at this year’s Strawberry Festival. Together with her friends, she makes the perfect batch of cookies with a brand new recipe. But she’ll have to decide which is more important: getting all the credit, or keeping her friends!]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/ed9f3f4d-bf69-4846-934f-39963d78c213/images/7f4dea73-ae30-491e-beb1-8a59b7698bcc/ArtPod_305_CookieCrumbles_1400.png"/>
+      <media:content fileSize="20109084" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/ed9f3f4d-bf69-4846-934f-39963d78c213/ArtPod_305_CookieCrumbles_FINAL.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>Muffy is determined to win the cookie competition at this year’s Strawberry Festival. Together with her friends, she makes the perfect batch of cookies with a brand new recipe. But she’ll have to decide which is more important: getting all the credit, or keeping her friends!</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_42058019-0947-4b6b-860b-4080c4f2fd6e</guid>
+      <title>304 - Arthur's Big Meltdown</title>
+      <pubDate>Thu, 30 Nov 2023 11:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_42058019-0947-4b6b-860b-4080c4f2fd6e&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>Arthur is usually pretty calm, but even the most mild-mannered kid gets upset sometimes! When his friends ruin his brand new pair of sneakers, Arthur flips out. Will he be able to salvage his reputation—and his friendships?</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/42058019-0947-4b6b-860b-4080c4f2fd6e/ArtPod_304_Arthur_sBigMeltdown_FINAL_1_.mp3" type="audio/mpeg" length="21927516"/>
+      <itunes:title>Arthur's Big Meltdown</itunes:title>
+      <itunes:subtitle>Arthur is usually pretty calm, but even the most mild-mannered kid gets upset sometimes!</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <itunes:duration>15:13</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[Arthur is usually pretty calm, but even the most mild-mannered kid gets upset sometimes! When his friends ruin his brand new pair of sneakers, Arthur flips out. Will he be able to salvage his reputation—and his friendships?]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/42058019-0947-4b6b-860b-4080c4f2fd6e/images/2981eff1-74ff-4c29-96cc-66376b8f199c/ArtPod_304_BigMeltdown_1400.png"/>
+      <media:content fileSize="21927516" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/42058019-0947-4b6b-860b-4080c4f2fd6e/ArtPod_304_Arthur_sBigMeltdown_FINAL_1_.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>Arthur is usually pretty calm, but even the most mild-mannered kid gets upset sometimes! When his friends ruin his brand new pair of sneakers, Arthur flips out. Will he be able to salvage his reputation—and his friendships?</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_f4cec5c3-4830-4190-b1fc-c4636fb9acd6</guid>
+      <title>303 - Arthur's New Old Vacation</title>
+      <pubDate>Thu, 23 Nov 2023 11:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_f4cec5c3-4830-4190-b1fc-c4636fb9acd6&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>Arthur’s family goes on the same summer vacation every year to Codpocket Lake. But this year, Arthur wants to go to the pirate-themed amusement park: Dead Man’s Cove. Can he convince his family to change up their usual vacation destination?</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/f4cec5c3-4830-4190-b1fc-c4636fb9acd6/ArtPod_303_NewOldVacation_FINAL.mp3" type="audio/mpeg" length="21322716"/>
+      <itunes:title>Arthur's New Old Vacation</itunes:title>
+      <itunes:subtitle>Arthur’s family goes on the same summer vacation every year to Codpocket Lake. But this year, Arthur wants to go to the pirate-themed amusement park.</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <itunes:duration>14:48</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[Arthur’s family goes on the same summer vacation every year to Codpocket Lake. But this year, Arthur wants to go to the pirate-themed amusement park: Dead Man’s Cove. Can he convince his family to change up their usual vacation destination?]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/f4cec5c3-4830-4190-b1fc-c4636fb9acd6/images/435c9f63-1849-410d-8138-d7c823b5da7e/ArtPod_303_NewOldVacation_1400.png"/>
+      <media:content fileSize="21322716" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/f4cec5c3-4830-4190-b1fc-c4636fb9acd6/ArtPod_303_NewOldVacation_FINAL.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>Arthur’s family goes on the same summer vacation every year to Codpocket Lake. But this year, Arthur wants to go to the pirate-themed amusement park: Dead Man’s Cove. Can he convince his family to change up their usual vacation destination?</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_ebafd49c-6c86-4865-a058-811906c600e6</guid>
+      <title>302 - The Case of the Girl with the Long Face</title>
+      <pubDate>Thu, 16 Nov 2023 11:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_ebafd49c-6c86-4865-a058-811906c600e6&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>Fern has been feeling down, but none of her friends know why! Buster Baxter, private eye, is determined to get to the bottom of the mystery.</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/ebafd49c-6c86-4865-a058-811906c600e6/ArtPod_302_CaseOfTheGirlWithTheLongFace_FINAL.mp3" type="audio/mpeg" length="22384860"/>
+      <itunes:title>The Case of the Girl with the Long Face</itunes:title>
+      <itunes:subtitle>Fern has been feeling down, but none of her friends know why! </itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:duration>15:32</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[Fern has been feeling down, but none of her friends know why! Buster Baxter, private eye, is determined to get to the bottom of the mystery.]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/ebafd49c-6c86-4865-a058-811906c600e6/images/bda29474-fce0-4942-bf53-106d1656a5c6/ArtPod_302_CaseOftheGirl_1400.png"/>
+      <media:content fileSize="22384860" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/ebafd49c-6c86-4865-a058-811906c600e6/ArtPod_302_CaseOfTheGirlWithTheLongFace_FINAL.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>Fern has been feeling down, but none of her friends know why! Buster Baxter, private eye, is determined to get to the bottom of the mystery.</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_10b32b1b-bf71-418f-aa2f-5a61f1d1bb23</guid>
+      <title>301-Desk Wars</title>
+      <pubDate>Thu, 09 Nov 2023 12:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_10b32b1b-bf71-418f-aa2f-5a61f1d1bb23&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>It’s the hottest school day of the year and tempers are even hotter! The tension comes to a head when Mr. Ratburn moves Brain and Arthur away from their usual desks and sets off the most dramatic desk war in third grade history!</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/10b32b1b-bf71-418f-aa2f-5a61f1d1bb23/ArtPod_301_DeskWars_FinalWithSubmission_PRX_BUSTER_END_2_.mp3" type="audio/mpeg" length="22780579"/>
+      <itunes:title>Desk Wars</itunes:title>
+      <itunes:subtitle>It’s the hottest school day of the year and tempers are even hotter! </itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <itunes:duration>15:48</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[It’s the hottest school day of the year and tempers are even hotter! The tension comes to a head when Mr. Ratburn moves Brain and Arthur away from their usual desks and sets off the most dramatic desk war in third grade history!]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/10b32b1b-bf71-418f-aa2f-5a61f1d1bb23/images/321fe8e2-0aee-47a2-b271-cd35538f715d/ArtPod_301_DeskWars_1400.png"/>
+      <media:content fileSize="22780579" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/10b32b1b-bf71-418f-aa2f-5a61f1d1bb23/ArtPod_301_DeskWars_FinalWithSubmission_PRX_BUSTER_END_2_.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>It’s the hottest school day of the year and tempers are even hotter! The tension comes to a head when Mr. Ratburn moves Brain and Arthur away from their usual desks and sets off the most dramatic desk war in third grade history!</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_71ed8512-70e9-4872-9ab4-f1aaeaa2289e</guid>
+      <title>Introducing The Arthur Podcast Season 3!</title>
+      <pubDate>Thu, 09 Nov 2023 11:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_71ed8512-70e9-4872-9ab4-f1aaeaa2289e&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>The Arthur Podcast is back with a third season! Fans of PBS KIDS podcast can join Arthur, D.W., and Buster new adventures based off the classic television series. New episodes release on Thursday.</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/71ed8512-70e9-4872-9ab4-f1aaeaa2289e/ArthurPodcast_Season_3_Trailer_PREMIERE_1_.mp3" type="audio/mpeg" length="1014164"/>
+      <itunes:title>Introducing The Arthur Podcast Season 3!</itunes:title>
+      <itunes:subtitle>The Arthur Podcast is back with a brand-new season! Fans of PBS KIDS podcast can join Arthur, D.W., and Buster new adventures based off the classic television series.</itunes:subtitle>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>trailer</itunes:episodeType>
+      <itunes:season>3</itunes:season>
+      <itunes:duration>0:41</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[The Arthur Podcast is back with a third season! Fans of PBS KIDS podcast can join Arthur, D.W., and Buster new adventures based off the classic television series. New episodes release on Thursday.]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/images/2e100eb8-7c08-40b0-92db-6dbdc4fd7a5a/Arthur_Podcast_Logo_Corrected_09162022_FINAL_1_.jpg"/>
+      <media:content fileSize="1014164" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/71ed8512-70e9-4872-9ab4-f1aaeaa2289e/ArthurPodcast_Season_3_Trailer_PREMIERE_1_.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>The Arthur Podcast is back with a third season! Fans of PBS KIDS podcast can join Arthur, D.W., and Buster new adventures based off the classic television series. New episodes release on Thursday.</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_37552191-ca73-4dd5-b8fe-504b5c12a2fd</guid>
+      <title>Introducing - Keyshawn Solves It</title>
+      <pubDate>Tue, 06 Jun 2023 10:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_37552191-ca73-4dd5-b8fe-504b5c12a2fd&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>If you love the The Arthur Podcast, then GBH Kids has a new show you’re sure to enjoy: Keyshawn Solves It. Created by Ed Jenkins, the Keyshawn Solves It podcast is an 8-episode serialized mystery about a 10-year-old African-American boy who inherits a set of keys that can unlock almost any door. With help from his friend Kiki, Keyshawn uses these keys to help solve the mystery of disappearing bikes in his North Minneapolis neighborhood, ensuring that his community’s Juneteenth bike parade can go on. Listeners will be introduced to Juneteenth and its origins, as well as to “keys to success” life lessons such as resilience, self-worth, and responsibility. Geared to children 5-9, Keyshawn Solves It is produced by GBH Kids and distributed by PRX and PBS KIDS. Funding is made possible in part by Black Public Media.</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/37552191-ca73-4dd5-b8fe-504b5c12a2fd/KSI_ArthurCrossPromo.mp3" type="audio/mpeg" length="1360694"/>
+      <itunes:title>Introducing - Keyshawn Solves It</itunes:title>
+      <itunes:subtitle>If you love the The Arthur Podcast, then GBH Kids has a new show you’re sure to enjoy: Keyshawn Solves It!</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>0:56</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <category>
+        <![CDATA[adfree]]>
+      </category>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[If you love the The Arthur Podcast, then GBH Kids has a new show you’re sure to enjoy: Keyshawn Solves It. Created by Ed Jenkins, the Keyshawn Solves It podcast is an 8-episode serialized mystery about a 10-year-old African-American boy who inherits a set of keys that can unlock almost any door. With help from his friend Kiki, Keyshawn uses these keys to help solve the mystery of disappearing bikes in his North Minneapolis neighborhood, ensuring that his community’s Juneteenth bike parade can go on. Listeners will be introduced to Juneteenth and its origins, as well as to “keys to success” life lessons such as resilience, self-worth, and responsibility. Geared to children 5-9, Keyshawn Solves It is produced by GBH Kids and distributed by PRX and PBS KIDS. Funding is made possible in part by Black Public Media.]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/images/2e100eb8-7c08-40b0-92db-6dbdc4fd7a5a/Arthur_Podcast_Logo_Corrected_09162022_FINAL_1_.jpg"/>
+      <media:content fileSize="1360694" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/37552191-ca73-4dd5-b8fe-504b5c12a2fd/KSI_ArthurCrossPromo.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>If you love the The Arthur Podcast, then GBH Kids has a new show you’re sure to enjoy: Keyshawn Solves It. Created by Ed Jenkins, the Keyshawn Solves It podcast is an 8-episode serialized mystery about a 10-year-old African-American boy who inherits a set of keys that can unlock almost any door. With help from his friend Kiki, Keyshawn uses these keys to help solve the mystery of disappearing bikes in his North Minneapolis neighborhood, ensuring that his community’s Juneteenth bike parade can go on. Listeners will be introduced to Juneteenth and its origins, as well as to “keys to success” life lessons such as resilience, self-worth, and responsibility. Geared to children 5-9, Keyshawn Solves It is produced by GBH Kids and distributed by PRX and PBS KIDS. Funding is made possible in part by Black Public Media.</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_1189dc3e-e376-4844-89eb-6552d3144619</guid>
+      <title>S2 E6 Speak Up, Francine</title>
+      <pubDate>Thu, 20 Apr 2023 13:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_1189dc3e-e376-4844-89eb-6552d3144619&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>After discovering that the local creek is polluted, Francine is determined to get the word out during Elwood City’s Earth Day Rally. But will her fear of public speaking get in her way?</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/1189dc3e-e376-4844-89eb-6552d3144619/ARTPOD_206_109_SpeakUpFrancine_FINAL_wKidSub_PRX.mp3" type="audio/mpeg" length="24570860"/>
+      <itunes:title>Speak Up, Francine</itunes:title>
+      <itunes:subtitle>After discovering that the local creek is polluted, Francine is determined to get the word out during Elwood City’s Earth Day Rally.</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:duration>17:03</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <category>
+        <![CDATA[Arthur]]>
+      </category>
+      <category>
+        <![CDATA[GBH]]>
+      </category>
+      <category>
+        <![CDATA[PBS]]>
+      </category>
+      <category>
+        <![CDATA[WGBH]]>
+      </category>
+      <category>
+        <![CDATA[kids]]>
+      </category>
+      <category>
+        <![CDATA[podcast]]>
+      </category>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[After discovering that the local creek is polluted, Francine is determined to get the word out during Elwood City’s Earth Day Rally. But will her fear of public speaking get in her way?]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/1189dc3e-e376-4844-89eb-6552d3144619/images/5ef977a0-3e54-4276-9c7c-4b06d42837c9/206_SpeakUpFrancine.png"/>
+      <media:content fileSize="24570860" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/1189dc3e-e376-4844-89eb-6552d3144619/ARTPOD_206_109_SpeakUpFrancine_FINAL_wKidSub_PRX.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>After discovering that the local creek is polluted, Francine is determined to get the word out during Elwood City’s Earth Day Rally. But will her fear of public speaking get in her way?</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_f2eb2989-ffc7-4eb4-9eb4-fb20779dda2d</guid>
+      <title>S2 E5 Lend Me Your Ear</title>
+      <pubDate>Thu, 13 Apr 2023 13:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_f2eb2989-ffc7-4eb4-9eb4-fb20779dda2d&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>Mr. Ratburn is acting strangely, and Arthur, Buster, and Brain are worried. The kids work together to get to the bottom of Mr. Ratburn’s odd behavior!</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/f2eb2989-ffc7-4eb4-9eb4-fb20779dda2d/ARTPOD_205_117_LendMeYourEar_FINAL_wKidSub_PRX.mp3" type="audio/mpeg" length="21733596"/>
+      <itunes:title>Lend Me Your Ear</itunes:title>
+      <itunes:subtitle>Mr. Ratburn is acting strangely, and Arthur, Buster, and Brain are worried. </itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <itunes:duration>15:05</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <category>
+        <![CDATA[Arthur]]>
+      </category>
+      <category>
+        <![CDATA[GBH]]>
+      </category>
+      <category>
+        <![CDATA[Kids]]>
+      </category>
+      <category>
+        <![CDATA[PBS]]>
+      </category>
+      <category>
+        <![CDATA[WGBH]]>
+      </category>
+      <category>
+        <![CDATA[children]]>
+      </category>
+      <category>
+        <![CDATA[ear]]>
+      </category>
+      <category>
+        <![CDATA[podcast]]>
+      </category>
+      <category>
+        <![CDATA[story]]>
+      </category>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[Mr. Ratburn is acting strangely, and Arthur, Buster, and Brain are worried. The kids work together to get to the bottom of Mr. Ratburn’s odd behavior!]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/f2eb2989-ffc7-4eb4-9eb4-fb20779dda2d/images/414d1218-2428-4cfa-9c23-112d39e1c1cc/205_LendMeYourEar_new.png"/>
+      <media:content fileSize="21733596" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/f2eb2989-ffc7-4eb4-9eb4-fb20779dda2d/ARTPOD_205_117_LendMeYourEar_FINAL_wKidSub_PRX.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>Mr. Ratburn is acting strangely, and Arthur, Buster, and Brain are worried. The kids work together to get to the bottom of Mr. Ratburn’s odd behavior!</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_da7f974d-8b79-49eb-b8d6-49bbf8cd8ead</guid>
+      <title>S2 E4 Staycation </title>
+      <pubDate>Thu, 06 Apr 2023 13:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_da7f974d-8b79-49eb-b8d6-49bbf8cd8ead&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>Mr. and Mrs. Read have to cancel their vacation when they can’t find a babysitter for Arthur, DW, and Baby Kate. To help cheer their parents up, the kids plan a staycation for them in their own backyard.</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/da7f974d-8b79-49eb-b8d6-49bbf8cd8ead/ARTPOD_204_115_Staycation_FINAL_wKidSub_PRX.mp3" type="audio/mpeg" length="21165344"/>
+      <itunes:title>Staycation </itunes:title>
+      <itunes:subtitle>Mr. and Mrs. Read have to cancel their vacation when they can’t find a babysitter for Arthur, DW.</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <itunes:duration>14:41</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <category>
+        <![CDATA[Arthur]]>
+      </category>
+      <category>
+        <![CDATA[DW]]>
+      </category>
+      <category>
+        <![CDATA[PBS]]>
+      </category>
+      <category>
+        <![CDATA[WGBH]]>
+      </category>
+      <category>
+        <![CDATA[kids]]>
+      </category>
+      <category>
+        <![CDATA[podcast]]>
+      </category>
+      <category>
+        <![CDATA[staycation]]>
+      </category>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[Mr. and Mrs. Read have to cancel their vacation when they can’t find a babysitter for Arthur, DW, and Baby Kate. To help cheer their parents up, the kids plan a staycation for them in their own backyard.]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/da7f974d-8b79-49eb-b8d6-49bbf8cd8ead/images/67eb5f74-b077-4088-ba08-0949c160de26/Arthur_S2_E4_Thumbnail.png"/>
+      <media:content fileSize="21165344" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/da7f974d-8b79-49eb-b8d6-49bbf8cd8ead/ARTPOD_204_115_Staycation_FINAL_wKidSub_PRX.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>Mr. and Mrs. Read have to cancel their vacation when they can’t find a babysitter for Arthur, DW, and Baby Kate. To help cheer their parents up, the kids plan a staycation for them in their own backyard.</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_2f63ccc3-57fd-4b03-b0e3-26587e73fb4b</guid>
+      <title>S2 E3 DW’s Bad Mood </title>
+      <pubDate>Thu, 30 Mar 2023 13:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_2f63ccc3-57fd-4b03-b0e3-26587e73fb4b&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>DW is acting even crankier than usual, and it’s up to Arthur and Francine to get to the bottom of what’s causing her bad mood.</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/2f63ccc3-57fd-4b03-b0e3-26587e73fb4b/ARTPOD_203_118_DWsBadMood_FINAL_wKidSub_PRX.mp3" type="audio/mpeg" length="21795120"/>
+      <itunes:title>DW’s Bad Mood </itunes:title>
+      <itunes:subtitle>DW is acting even crankier than usual, and it’s up to Arthur and Francine to get to the bottom of what’s causing her bad mood.</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <itunes:duration>15:07</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[DW is acting even crankier than usual, and it’s up to Arthur and Francine to get to the bottom of what’s causing her bad mood.]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/2f63ccc3-57fd-4b03-b0e3-26587e73fb4b/images/c3b47dac-4e23-40ad-88ec-0ae55cdada57/203_BadMood_new.png"/>
+      <media:content fileSize="21795120" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/2f63ccc3-57fd-4b03-b0e3-26587e73fb4b/ARTPOD_203_118_DWsBadMood_FINAL_wKidSub_PRX.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>DW is acting even crankier than usual, and it’s up to Arthur and Francine to get to the bottom of what’s causing her bad mood.</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_61fa0844-6eb4-482c-9f0d-a6e774fa57e6</guid>
+      <title>S2 E2 The World Record </title>
+      <pubDate>Thu, 23 Mar 2023 13:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_61fa0844-6eb4-482c-9f0d-a6e774fa57e6&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>Arthur and his friends want to break a world record, but can’t seem to agree on <em>which</em> record to break!</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/61fa0844-6eb4-482c-9f0d-a6e774fa57e6/ARTPOD_202_110_TheWorldRecord_FINAL_wKidSub_PRX.mp3" type="audio/mpeg" length="25028412"/>
+      <itunes:title>The World Record </itunes:title>
+      <itunes:subtitle>Arthur and his friends want to break a world record, but can’t seem to agree on which record to break!</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:duration>17:22</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <category>
+        <![CDATA[arthur]]>
+      </category>
+      <category>
+        <![CDATA[kids]]>
+      </category>
+      <category>
+        <![CDATA[pbs]]>
+      </category>
+      <category>
+        <![CDATA[story]]>
+      </category>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[Arthur and his friends want to break a world record, but can’t seem to agree on which record to break!]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/61fa0844-6eb4-482c-9f0d-a6e774fa57e6/images/b70bf0fe-b88a-42c8-8c7f-f0f261114871/Arthur_S2_E2_thumb.png"/>
+      <media:content fileSize="25028412" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/61fa0844-6eb4-482c-9f0d-a6e774fa57e6/ARTPOD_202_110_TheWorldRecord_FINAL_wKidSub_PRX.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>Arthur and his friends want to break a world record, but can’t seem to agree on <em>which</em> record to break!</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_53aca492-f73e-4b8d-9a18-fda5bcf5e599</guid>
+      <title>S2 E1 Arthur’s Pet Business </title>
+      <pubDate>Thu, 16 Mar 2023 13:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_53aca492-f73e-4b8d-9a18-fda5bcf5e599&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>To prove to his parents that he’s responsible enough to have a dog of his own, Arthur creates his own pet sitting business. But managing all these pets turns out to be harder than he bargained for!</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/53aca492-f73e-4b8d-9a18-fda5bcf5e599/ARTPOD_201_113_PetBusiness_FINAL_wKidSub_PRX.mp3" type="audio/mpeg" length="22942585"/>
+      <itunes:title>Arthur’s Pet Business </itunes:title>
+      <itunes:subtitle>To prove to his parents that he’s responsible enough to have a dog of his own, Arthur creates his own pet sitting business.</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <itunes:duration>15:55</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <category>
+        <![CDATA[Arthur]]>
+      </category>
+      <category>
+        <![CDATA[KIDS]]>
+      </category>
+      <category>
+        <![CDATA[PBS]]>
+      </category>
+      <category>
+        <![CDATA[business]]>
+      </category>
+      <category>
+        <![CDATA[dog]]>
+      </category>
+      <category>
+        <![CDATA[pet]]>
+      </category>
+      <category>
+        <![CDATA[pets sitting]]>
+      </category>
+      <category>
+        <![CDATA[podcast]]>
+      </category>
+      <category>
+        <![CDATA[story]]>
+      </category>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[To prove to his parents that he’s responsible enough to have a dog of his own, Arthur creates his own pet sitting business. But managing all these pets turns out to be harder than he bargained for!]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/53aca492-f73e-4b8d-9a18-fda5bcf5e599/images/127d4281-3e9c-4d9e-b083-be80c9bb563a/201_PetBusiness_New.png"/>
+      <media:content fileSize="22942585" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/53aca492-f73e-4b8d-9a18-fda5bcf5e599/ARTPOD_201_113_PetBusiness_FINAL_wKidSub_PRX.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>To prove to his parents that he’s responsible enough to have a dog of his own, Arthur creates his own pet sitting business. But managing all these pets turns out to be harder than he bargained for!</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_e7ac8d71-8ce9-4005-8f8d-75a9c11792eb</guid>
+      <title>Announcing Season 2 of The Arthur Podcast!</title>
+      <pubDate>Wed, 08 Mar 2023 14:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_e7ac8d71-8ce9-4005-8f8d-75a9c11792eb&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>The Arthur Podcast is back with a brand-new season! Fans of PBS KIDS podcast can join Arthur, D.W., and Buster new adventures based off the classic television series.</p>
+
+<p>The Arthur Podcast is produced by GBH Kids and Gen-Z Media in partnership with PRX.</p>
+
+<p>Find more at <a href="http://www.pbskids.org/arthur" rel="nofollow" target="_blank">www.pbskids.org/arthur</a></p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/e7ac8d71-8ce9-4005-8f8d-75a9c11792eb/ArthurPodcast_Season_2_Trailer_PREMIERE_LOCKED.mp3" type="audio/mpeg" length="959788"/>
+      <itunes:title>Announcing Season 2 of The Arthur Podcast!</itunes:title>
+      <itunes:subtitle>The Arthur Podcast is back with a brand-new season! </itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>0:39</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <category>
+        <![CDATA[Arthur]]>
+      </category>
+      <category>
+        <![CDATA[Kids]]>
+      </category>
+      <category>
+        <![CDATA[PBS]]>
+      </category>
+      <category>
+        <![CDATA[adfree]]>
+      </category>
+      <category>
+        <![CDATA[podcast]]>
+      </category>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[The Arthur Podcast is back with a brand-new season! Fans of PBS KIDS podcast can join Arthur, D.W., and Buster new adventures based off the classic television series.
+
+
+The Arthur Podcast is produced by GBH Kids and Gen-Z Media in partnership with PRX.
+
+
+Find more at <a href="http://www.pbskids.org/arthur" target="_blank">www.pbskids.org/arthur</a>]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/images/2e100eb8-7c08-40b0-92db-6dbdc4fd7a5a/Arthur_Podcast_Logo_Corrected_09162022_FINAL_1_.jpg"/>
+      <media:content fileSize="959788" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/e7ac8d71-8ce9-4005-8f8d-75a9c11792eb/ArthurPodcast_Season_2_Trailer_PREMIERE_LOCKED.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>The Arthur Podcast is back with a brand-new season! Fans of PBS KIDS podcast can join Arthur, D.W., and Buster new adventures based off the classic television series.</p>
+
+<p>The Arthur Podcast is produced by GBH Kids and Gen-Z Media in partnership with PRX.</p>
+
+<p>Find more at <a href="http://www.pbskids.org/arthur" rel="nofollow" target="_blank">www.pbskids.org/arthur</a></p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_2671398f-c45c-4ead-ab91-0166eeaf44de</guid>
+      <title>S1 E8 Crunch Cereal </title>
+      <pubDate>Thu, 08 Dec 2022 12:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_2671398f-c45c-4ead-ab91-0166eeaf44de&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>Arthur is determined to win the new Crunch Cereal Jingle contest! All he needs is a band…and lyrics…and a melody.</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/2671398f-c45c-4ead-ab91-0166eeaf44de/ARTHURPOD_108_CrunchCerealContest_Final_PRX.mp3" type="audio/mpeg" length="15662648"/>
+      <itunes:title>Crunch Cereal </itunes:title>
+      <itunes:subtitle>Arthur wants to win the new Crunch Cereal Jingle contest! He just needs a good idea. </itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>8</itunes:episode>
+      <itunes:duration>16:18</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[Arthur is determined to win the new Crunch Cereal Jingle contest! All he needs is a band…and lyrics…and a melody.]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/2671398f-c45c-4ead-ab91-0166eeaf44de/images/8479b460-b249-48cc-ad29-f6c380ee642c/ARTPOD_108_CrunchCereal_Thumbnail_FINAL.png"/>
+      <media:content fileSize="15662648" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/2671398f-c45c-4ead-ab91-0166eeaf44de/ARTHURPOD_108_CrunchCerealContest_Final_PRX.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>Arthur is determined to win the new Crunch Cereal Jingle contest! All he needs is a band…and lyrics…and a melody.</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_176c0c39-9bac-4d72-a9d5-8bea90341670</guid>
+      <title>S1 E7 Long Dull Winter</title>
+      <pubDate>Thu, 01 Dec 2022 12:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_176c0c39-9bac-4d72-a9d5-8bea90341670&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>When Arthur and his friends catch a case of the winter blues, they decide that having a holiday to celebrate is the only way to cure it. Since there are no major holidays coming up, they take it upon themselves to create a brand new one!</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/176c0c39-9bac-4d72-a9d5-8bea90341670/ARTHURPOD_107_LongDullWinter_Final_PRX.mp3" type="audio/mpeg" length="15676409"/>
+      <itunes:title>Long Dull Winter</itunes:title>
+      <itunes:subtitle>Elwood City is due for a new holiday, so Arthur and his friends pitch their some ideas!</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>7</itunes:episode>
+      <itunes:duration>16:19</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[When Arthur and his friends catch a case of the winter blues, they decide that having a holiday to celebrate is the only way to cure it. Since there are no major holidays coming up, they take it upon themselves to create a brand new one!]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/176c0c39-9bac-4d72-a9d5-8bea90341670/images/d4925240-3cc2-4751-9f72-f80286a789b2/ARTPOD_107_LongDullWinter_Thumbnail_FINAL.png"/>
+      <media:content fileSize="15676409" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/176c0c39-9bac-4d72-a9d5-8bea90341670/ARTHURPOD_107_LongDullWinter_Final_PRX.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>When Arthur and his friends catch a case of the winter blues, they decide that having a holiday to celebrate is the only way to cure it. Since there are no major holidays coming up, they take it upon themselves to create a brand new one!</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_44845bd7-09b6-4191-8da4-0b1f394e58be</guid>
+      <title>S1 E6 Locked in the Library</title>
+      <pubDate>Thu, 24 Nov 2022 12:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_44845bd7-09b6-4191-8da4-0b1f394e58be&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>Francine is upset with Arthur and refuses to speak to him. Being in a fight with your best friend is hard enough, but things take a turn for the worst when they both get locked inside the Elwood City Library for the weekend!</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/44845bd7-09b6-4191-8da4-0b1f394e58be/ARTHURPOD_106_LockedintheLibrary_Final_PRX.mp3" type="audio/mpeg" length="14481704"/>
+      <itunes:title>Locked in the Library</itunes:title>
+      <itunes:subtitle>Francine is really mad at Arthur. Can she forgive him when they get locked in the library?</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:duration>15:05</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[Francine is upset with Arthur and refuses to speak to him. Being in a fight with your best friend is hard enough, but things take a turn for the worst when they both get locked inside the Elwood City Library for the weekend!]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/44845bd7-09b6-4191-8da4-0b1f394e58be/images/055e8b4b-cec2-4b48-9980-e0f0914b8175/ARTPOD_106_THUMBNAIL.png"/>
+      <media:content fileSize="14481704" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/44845bd7-09b6-4191-8da4-0b1f394e58be/ARTHURPOD_106_LockedintheLibrary_Final_PRX.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>Francine is upset with Arthur and refuses to speak to him. Being in a fight with your best friend is hard enough, but things take a turn for the worst when they both get locked inside the Elwood City Library for the weekend!</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_ab600c61-b792-44aa-9aac-f85f209dfe0c</guid>
+      <title>S1 E5 Arthur's New Baby</title>
+      <pubDate>Thu, 17 Nov 2022 12:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_ab600c61-b792-44aa-9aac-f85f209dfe0c&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>Arthur is not excited when his parents announce that they’ll be having another baby. One little sister is more than enough! Will he be able to win Baby Kate over, or will he have another D.W. to contend with?</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/ab600c61-b792-44aa-9aac-f85f209dfe0c/ARTHURPOD_105_ArthursNewBaby_Final_PRX.mp3" type="audio/mpeg" length="35103584"/>
+      <itunes:title>Arthur's New Baby</itunes:title>
+      <itunes:subtitle>Arthur is nervous when his parents say they're having a new baby! Will she be another D.W.?</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <itunes:duration>14:37</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[Arthur is not excited when his parents announce that they’ll be having another baby. One little sister is more than enough! Will he be able to win Baby Kate over, or will he have another D.W. to contend with?]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/ab600c61-b792-44aa-9aac-f85f209dfe0c/images/e33c93be-9e20-4e38-90a3-ef049fba6867/ARTPOD_105_Arthur_sBaby_Thumbnail_Final.png"/>
+      <media:content fileSize="35103584" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/ab600c61-b792-44aa-9aac-f85f209dfe0c/ARTHURPOD_105_ArthursNewBaby_Final_PRX.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>Arthur is not excited when his parents announce that they’ll be having another baby. One little sister is more than enough! Will he be able to win Baby Kate over, or will he have another D.W. to contend with?</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_90c06992-5f1d-473b-b135-75a1a8accf8e</guid>
+      <title>S1 E4 Arthur's Snow Biz </title>
+      <pubDate>Thu, 10 Nov 2022 12:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_90c06992-5f1d-473b-b135-75a1a8accf8e&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>It’s snowing in Elwood City, and Arthur’s new shoveling business is booming…that is, until Buster tries to get in on the action. Now the friends must compete to be the best shoveler on the block!</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/90c06992-5f1d-473b-b135-75a1a8accf8e/ARTHURPOD_104_SnowBiz_Final_PRX.mp3" type="audio/mpeg" length="15487508"/>
+      <itunes:title>Arthur's Snow Biz</itunes:title>
+      <itunes:subtitle>Arthur and Buster's friendship gets icy after they start a snow shoveling business.</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <itunes:duration>16:07</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[It’s snowing in Elwood City, and Arthur’s new shoveling business is booming…that is, until Buster tries to get in on the action. Now the friends must compete to be the best shoveler on the block!]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/90c06992-5f1d-473b-b135-75a1a8accf8e/images/72a02f1a-00d7-4399-8c4a-850fa4637fa5/ARTPOD_104_SnowBiz_Thumbnail_FINAL.png"/>
+      <media:content fileSize="15487508" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/90c06992-5f1d-473b-b135-75a1a8accf8e/ARTHURPOD_104_SnowBiz_Final_PRX.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>It’s snowing in Elwood City, and Arthur’s new shoveling business is booming…that is, until Buster tries to get in on the action. Now the friends must compete to be the best shoveler on the block!</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_6fe42287-c752-4643-828e-74040a10b8ab</guid>
+      <title>S1 E3 Buster's Secret Admirer</title>
+      <pubDate>Thu, 03 Nov 2022 11:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_6fe42287-c752-4643-828e-74040a10b8ab&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>Buster receives a box of chocolates in the mail. Who could they be from? He’ll need Arthur’s help to discover who his secret admirer is.</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/6fe42287-c752-4643-828e-74040a10b8ab/ARTHURPOD_103_BusterSecretAdmirer_Final_PRX.mp3" type="audio/mpeg" length="15974981"/>
+      <itunes:title>Buster's Secret Admirer</itunes:title>
+      <itunes:subtitle>Buster needs to identify his secret admirer after they send him a box of chocolates.</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <itunes:duration>16:38</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <category>
+        <![CDATA[Arthur]]>
+      </category>
+      <category>
+        <![CDATA[Buster]]>
+      </category>
+      <category>
+        <![CDATA[PBS]]>
+      </category>
+      <category>
+        <![CDATA[PBS kids]]>
+      </category>
+      <category>
+        <![CDATA[box]]>
+      </category>
+      <category>
+        <![CDATA[breakfast]]>
+      </category>
+      <category>
+        <![CDATA[chocolate]]>
+      </category>
+      <category>
+        <![CDATA[cinnamon toast]]>
+      </category>
+      <category>
+        <![CDATA[delicious]]>
+      </category>
+      <category>
+        <![CDATA[happy fall day]]>
+      </category>
+      <category>
+        <![CDATA[mystery]]>
+      </category>
+      <category>
+        <![CDATA[podcast]]>
+      </category>
+      <category>
+        <![CDATA[podcast nation]]>
+      </category>
+      <category>
+        <![CDATA[secret admirer]]>
+      </category>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[Buster receives a box of chocolates in the mail. Who could they be from? He’ll need Arthur’s help to discover who his secret admirer is.]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/6fe42287-c752-4643-828e-74040a10b8ab/images/a8da6dfd-476e-4fa8-91f0-4caa21ed0e67/ARTPOD_103_Buster_sSecretAdmirer_Thumbnail_Final_2.png"/>
+      <media:content fileSize="15974981" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/6fe42287-c752-4643-828e-74040a10b8ab/ARTHURPOD_103_BusterSecretAdmirer_Final_PRX.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>Buster receives a box of chocolates in the mail. Who could they be from? He’ll need Arthur’s help to discover who his secret admirer is.</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_a3fcf625-20f7-4038-92f8-553e2110d4dd</guid>
+      <title>S1 E2 Scare-Your-Pants-Off</title>
+      <pubDate>Thu, 27 Oct 2022 11:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_a3fcf625-20f7-4038-92f8-553e2110d4dd&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>When a group called “Parents Against Weird Stories” try to ban the “Scare-Your-Pants-Off” books, it’s up to Arthur and his friends to save their favorite book series!</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/a3fcf625-20f7-4038-92f8-553e2110d4dd/ARTHURPOD_102_ScareYourPantsOff_Final_PRX.mp3" type="audio/mpeg" length="14163116"/>
+      <itunes:title>Scare-Your-Pants-Off</itunes:title>
+      <itunes:subtitle>Arthur and his friends must rally together to save their favorite series of spooky books! </itunes:subtitle>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:duration>14:45</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <category>
+        <![CDATA[Arthur]]>
+      </category>
+      <category>
+        <![CDATA[Buster]]>
+      </category>
+      <category>
+        <![CDATA[DW]]>
+      </category>
+      <category>
+        <![CDATA[Elwood City]]>
+      </category>
+      <category>
+        <![CDATA[PBS]]>
+      </category>
+      <category>
+        <![CDATA[book]]>
+      </category>
+      <category>
+        <![CDATA[book reading]]>
+      </category>
+      <category>
+        <![CDATA[elementary school]]>
+      </category>
+      <category>
+        <![CDATA[inbox]]>
+      </category>
+      <category>
+        <![CDATA[kids]]>
+      </category>
+      <category>
+        <![CDATA[library]]>
+      </category>
+      <category>
+        <![CDATA[news reporter]]>
+      </category>
+      <category>
+        <![CDATA[petition]]>
+      </category>
+      <category>
+        <![CDATA[podcast nation]]>
+      </category>
+      <category>
+        <![CDATA[read]]>
+      </category>
+      <category>
+        <![CDATA[scare your pants off]]>
+      </category>
+      <category>
+        <![CDATA[scary]]>
+      </category>
+      <category>
+        <![CDATA[strike]]>
+      </category>
+      <category>
+        <![CDATA[zombie]]>
+      </category>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[When a group called “Parents Against Weird Stories” try to ban the “Scare-Your-Pants-Off” books, it’s up to Arthur and his friends to save their favorite book series!]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/a3fcf625-20f7-4038-92f8-553e2110d4dd/images/f637147d-2366-40e7-8a4c-8dcd6c1413c7/ARTPOD_102_ScareYourPantsOff_FINAL.png"/>
+      <media:content fileSize="14163116" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/a3fcf625-20f7-4038-92f8-553e2110d4dd/ARTHURPOD_102_ScareYourPantsOff_Final_PRX.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>When a group called “Parents Against Weird Stories” try to ban the “Scare-Your-Pants-Off” books, it’s up to Arthur and his friends to save their favorite book series!</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_b80d40f5-9e13-4235-ad42-76f2c1b4dfa9</guid>
+      <title>S1 E1 Spelling Trubble</title>
+      <pubDate>Thu, 20 Oct 2022 11:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_b80d40f5-9e13-4235-ad42-76f2c1b4dfa9&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>Arthur is surprised when he and Brain are chosen to represent Mr. Ratburn’s class in the school-wide spellathon. Arthur didn’t study! How will he be able to compete against the smartest kid in the school and last year’s reigning champ?</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/b80d40f5-9e13-4235-ad42-76f2c1b4dfa9/ARTHURPOD_101_SpellingTrubble_Final_PRX.mp3" type="audio/mpeg" length="41408300"/>
+      <itunes:title>Spelling Trubble</itunes:title>
+      <itunes:subtitle>Arthur's participating in the school-wide spellathon. But will he be up to the challenge?</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <itunes:duration>17:15</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <category>
+        <![CDATA[Arthur]]>
+      </category>
+      <category>
+        <![CDATA[Arthur Read]]>
+      </category>
+      <category>
+        <![CDATA[Buster]]>
+      </category>
+      <category>
+        <![CDATA[DW]]>
+      </category>
+      <category>
+        <![CDATA[GBH]]>
+      </category>
+      <category>
+        <![CDATA[PBS]]>
+      </category>
+      <category>
+        <![CDATA[WGBH]]>
+      </category>
+      <category>
+        <![CDATA[champion]]>
+      </category>
+      <category>
+        <![CDATA[cut]]>
+      </category>
+      <category>
+        <![CDATA[football]]>
+      </category>
+      <category>
+        <![CDATA[homework]]>
+      </category>
+      <category>
+        <![CDATA[inbox]]>
+      </category>
+      <category>
+        <![CDATA[kids]]>
+      </category>
+      <category>
+        <![CDATA[nervous]]>
+      </category>
+      <category>
+        <![CDATA[podcast]]>
+      </category>
+      <category>
+        <![CDATA[public]]>
+      </category>
+      <category>
+        <![CDATA[question]]>
+      </category>
+      <category>
+        <![CDATA[shaking]]>
+      </category>
+      <category>
+        <![CDATA[spell]]>
+      </category>
+      <category>
+        <![CDATA[spellathon]]>
+      </category>
+      <category>
+        <![CDATA[speller]]>
+      </category>
+      <category>
+        <![CDATA[study]]>
+      </category>
+      <category>
+        <![CDATA[treehouse]]>
+      </category>
+      <category>
+        <![CDATA[videogame]]>
+      </category>
+      <category>
+        <![CDATA[vocabulary]]>
+      </category>
+      <category>
+        <![CDATA[win]]>
+      </category>
+      <category>
+        <![CDATA[winner]]>
+      </category>
+      <category>
+        <![CDATA[word]]>
+      </category>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[Arthur is surprised when he and Brain are chosen to represent Mr. Ratburn’s class in the school-wide spellathon. Arthur didn’t study! How will he be able to compete against the smartest kid in the school and last year’s reigning champ?]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/b80d40f5-9e13-4235-ad42-76f2c1b4dfa9/images/c7a1224c-dff6-4b1a-b7a3-493be4484f3d/ARTPOD_101_SpellingTrubble_Thumbnail_FINAL.png"/>
+      <media:content fileSize="41408300" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/b80d40f5-9e13-4235-ad42-76f2c1b4dfa9/ARTHURPOD_101_SpellingTrubble_Final_PRX.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>Arthur is surprised when he and Brain are chosen to represent Mr. Ratburn’s class in the school-wide spellathon. Arthur didn’t study! How will he be able to compete against the smartest kid in the school and last year’s reigning champ?</p>]]>
+      </content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">prx_2469_e0a19cfa-60d1-4ccf-a323-6c0cae1e9ff6</guid>
+      <title>S1 E0 Arthur Makes a Podcast</title>
+      <pubDate>Thu, 06 Oct 2022 11:00:00 -0000</pubDate>
+      <link>https://play.prx.org/listen?ge=prx_2469_e0a19cfa-60d1-4ccf-a323-6c0cae1e9ff6&amp;uf=https%3A%2F%2Ffeeds.wgbh.org%2F2469%2Ffeed-rss.xml</link>
+      <description>
+        <![CDATA[<p>Arthur's making his own podcast and is excited to share the news with D.W. and you! Listen to his new series starting October 20th wherever you find podcasts.<br>
+<br>
+The Arthur Podcast is produced by GBH Kids and Gen-Z Media.</p>]]>
+      </description>
+      <enclosure url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/e0a19cfa-60d1-4ccf-a323-6c0cae1e9ff6/Copy_of_GBH_ArthurPodcastTeaserTrailer_Premiere_AUDIO.mp3" type="audio/mpeg" length="2972199"/>
+      <itunes:title>Arthur Makes a Podcast</itunes:title>
+      <itunes:subtitle>Arthur's making his own podcast and is excited to share the news with D.W. and you!</itunes:subtitle>
+      <itunes:episodeType>trailer</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:duration>03:03</itunes:duration>
+      <author>wgbh_podcasts@wgbh.org (GBH &amp; PBS Kids)</author>
+      <category>
+        <![CDATA[Arthur]]>
+      </category>
+      <category>
+        <![CDATA[DW]]>
+      </category>
+      <category>
+        <![CDATA[GBH]]>
+      </category>
+      <category>
+        <![CDATA[PBS]]>
+      </category>
+      <category>
+        <![CDATA[PBS KIDS]]>
+      </category>
+      <category>
+        <![CDATA[WGBH]]>
+      </category>
+      <category>
+        <![CDATA[action]]>
+      </category>
+      <category>
+        <![CDATA[adfree]]>
+      </category>
+      <category>
+        <![CDATA[cut]]>
+      </category>
+      <category>
+        <![CDATA[dog]]>
+      </category>
+      <category>
+        <![CDATA[dog pal]]>
+      </category>
+      <category>
+        <![CDATA[family]]>
+      </category>
+      <category>
+        <![CDATA[friends]]>
+      </category>
+      <category>
+        <![CDATA[kids]]>
+      </category>
+      <category>
+        <![CDATA[mic]]>
+      </category>
+      <category>
+        <![CDATA[microphone]]>
+      </category>
+      <category>
+        <![CDATA[podcast]]>
+      </category>
+      <category>
+        <![CDATA[podcasting]]>
+      </category>
+      <category>
+        <![CDATA[recording]]>
+      </category>
+      <category>
+        <![CDATA[theme song]]>
+      </category>
+      <category>
+        <![CDATA[voice messages]]>
+      </category>
+      <itunes:author>GBH &amp; PBS Kids</itunes:author>
+      <itunes:summary>
+        <![CDATA[Arthur's making his own podcast and is excited to share the news with D.W. and you! Listen to his new series starting October 20th wherever you find podcasts.
+
+
+The Arthur Podcast is produced by GBH Kids and Gen-Z Media.]]>
+      </itunes:summary>
+      <itunes:image href="https://f.prxu.org/2469/e0a19cfa-60d1-4ccf-a323-6c0cae1e9ff6/images/8e4315bd-18ce-4480-98c9-7509c1faf53a/Arthur_Podcast_Logo_Corrected_09162022_FINAL_1_.jpg"/>
+      <media:content fileSize="2972199" type="audio/mpeg" url="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/2469/e0a19cfa-60d1-4ccf-a323-6c0cae1e9ff6/Copy_of_GBH_ArthurPodcastTeaserTrailer_Premiere_AUDIO.mp3"/>
+      <content:encoded>
+        <![CDATA[<p>Arthur's making his own podcast and is excited to share the news with D.W. and you! Listen to his new series starting October 20th wherever you find podcasts.<br>
+<br>
+The Arthur Podcast is produced by GBH Kids and Gen-Z Media.</p>]]>
+      </content:encoded>
+    </item>
+  </channel>
+</rss>

@@ -33,3 +33,7 @@ Thumbs.db
 # Logs
 logs
 *.log
+
+# Build artifacts
+podcast-transform.sef.json
+temp-*.xml

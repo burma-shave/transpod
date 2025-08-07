@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test Podcast</title>
+    <description>A test podcast feed</description>
+    <link>https://example.com/podcast</link>
+    <atom:link href="https://feeds.example.com/original-feed.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+      <title>Episode 1: First Episode</title>
+      <description><![CDATA[This is the first episode with <strong>HTML content</strong>.]]></description>
+      <pubDate>Mon, 01 Jan 2024 12:00:00 GMT</pubDate>
+      <guid>ep1</guid>
+      <enclosure url="https://example.com/episode1.mp3" length="12345678" type="audio/mpeg"/>
+    </item>
+    
+    <item>
+      <title>Episode 2: Second Episode</title>
+      <description>This is the second episode.</description>
+      <pubDate>Mon, 08 Jan 2024 12:00:00 GMT</pubDate>
+      <guid>ep2</guid>
+      <enclosure url="https://example.com/episode2.mp3" length="87654321" type="audio/mpeg"/>
+    </item>
+    
+    <item>
+      <title>Episode 3: Third Episode</title>
+      <description>This is the third episode.</description>
+      <pubDate>Mon, 15 Jan 2024 12:00:00 GMT</pubDate>
+      <guid>ep3</guid>
+      <enclosure url="https://example.com/episode3.mp3" length="11223344" type="audio/mpeg"/>
+    </item>
+    
+    <item>
+      <title>Episode 4: Fourth Episode</title>
+      <description>This is the fourth episode.</description>
+      <pubDate>Mon, 22 Jan 2024 12:00:00 GMT</pubDate>
+      <guid>ep4</guid>
+      <enclosure url="https://example.com/episode4.mp3" length="44332211" type="audio/mpeg"/>
+    </item>
+    
+    <item>
+      <title>Episode 5: Fifth Episode</title>
+      <description>This is the fifth episode.</description>
+      <pubDate>Mon, 29 Jan 2024 12:00:00 GMT</pubDate>
+      <guid>ep5</guid>
+      <enclosure url="https://example.com/episode5.mp3" length="55667788" type="audio/mpeg"/>
+    </item>
+    
+  </channel>
+</rss>
