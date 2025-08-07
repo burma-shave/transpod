@@ -13,14 +13,14 @@ describe('API Endpoints', () => {
   });
 
   describe('GET /', () => {
-    test('should return 400 when feed parameter is missing', async () => {
+    test('should return HTML form when feed parameter is missing', async () => {
       const response = await request(app)
         .get('/')
-        .expect(400);
+        .expect(200);
         
-      expect(response.body).toEqual({
-        error: 'Feed URL parameter is required'
-      });
+      expect(response.headers['content-type']).toMatch(/text\/html/);
+      expect(response.text).toContain('Podcast Feed Transformer');
+      expect(response.text).toContain('<form id="podcastForm">');
     });
 
     test('should return 400 when limit is not a positive number', async () => {

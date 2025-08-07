@@ -16,3 +16,6 @@ When transforming podcast feeds there is an atom:link element that needs to be u
 - Migrated from SAX parser to XSLT transformation approach
 - XML escaping handled automatically by XSLT processor
 - URL replacement functionality implemented via XSLT parameters
+
+## Development Commands
+- `npm run start` - Start the service
