@@ -66,37 +66,21 @@ function fetchPodcastFeed(feedUrl) {
 
 async function transformFeed(xmlData, limit, transformedFeedUrl) {
   try {
-    // Write XML data to a temporary file for SaxonJS.getResource
-    const tempXmlPath = path.join(__dirname, 'temp-feed.xml');
-    fs.writeFileSync(tempXmlPath, xmlData.toString());
+    // Load compiled SEF file
+    const sefContent = JSON.parse(fs.readFileSync(sefPath, 'utf8'));
     
-    try {
-      // Load XML using SaxonJS.getResource for proper DOM handling
-      const xmlDoc = await SaxonJS.getResource({
-        location: tempXmlPath,
-        type: 'xml'
-      });
-      
-      // Transform using compiled SEF file
-      const result = await SaxonJS.transform({
-        stylesheetFileName: sefPath,
-        sourceNode: xmlDoc,
-        destination: 'serialized',
-        stylesheetParams: {
-          'Q{}limit': limit,
-          'Q{}transformedFeedUrl': transformedFeedUrl || ''
-        }
-      }, 'async');
-      
-      return result.principalResult;
-    } finally {
-      // Clean up temporary file
-      try {
-        fs.unlinkSync(tempXmlPath);
-      } catch (e) {
-        // Ignore cleanup errors
+    // Transform using Saxon-JS with XML string input (no file writes)
+    const result = await SaxonJS.transform({
+      stylesheetInternal: sefContent,
+      sourceText: xmlData.toString(),
+      destination: 'serialized',
+      stylesheetParams: {
+        'Q{}limit': limit,
+        'Q{}transformedFeedUrl': transformedFeedUrl || ''
       }
-    }
+    }, 'async');
+    
+    return result.principalResult;
   } catch (error) {
     throw new Error(`XSLT transformation failed: ${error.message}`);
   }

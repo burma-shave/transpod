@@ -15,14 +15,14 @@ describe('XSLT Transformation', () => {
   });
   
   async function transformWithSaxon(limit, transformedFeedUrl) {
-    const xmlDoc = await SaxonJS.getResource({
-      location: sampleFeedPath,
-      type: 'xml'
-    });
+    // Load sample XML and compiled SEF file
+    const xmlContent = fs.readFileSync(sampleFeedPath, 'utf8');
+    const sefContent = JSON.parse(fs.readFileSync(sefPath, 'utf8'));
     
+    // Transform using Saxon-JS with XML string input (no file writes)
     const result = await SaxonJS.transform({
-      stylesheetFileName: sefPath,
-      sourceNode: xmlDoc,
+      stylesheetInternal: sefContent,
+      sourceText: xmlContent,
       destination: 'serialized',
       stylesheetParams: {
         'Q{}limit': limit,

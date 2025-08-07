@@ -10,34 +10,21 @@ describe('Edge Cases and Error Handling', () => {
   });
 
   async function transformXmlWithSaxon(xmlContent, limit, transformedFeedUrl) {
-    // Write XML to temp file for SaxonJS.getResource
-    const tempPath = path.join(__dirname, 'temp-test.xml');
-    fs.writeFileSync(tempPath, xmlContent);
+    // Load compiled SEF file
+    const sefContent = JSON.parse(fs.readFileSync(sefPath, 'utf8'));
     
-    try {
-      const xmlDoc = await SaxonJS.getResource({
-        location: tempPath,
-        type: 'xml'
-      });
-      
-      const result = await SaxonJS.transform({
-        stylesheetFileName: sefPath,
-        sourceNode: xmlDoc,
-        destination: 'serialized',
-        stylesheetParams: {
-          'Q{}limit': limit,
-          'Q{}transformedFeedUrl': transformedFeedUrl
-        }
-      }, 'async');
-      
-      return result.principalResult;
-    } finally {
-      try {
-        fs.unlinkSync(tempPath);
-      } catch (e) {
-        // Ignore cleanup errors
+    // Transform using Saxon-JS with XML string input (no file writes)
+    const result = await SaxonJS.transform({
+      stylesheetInternal: sefContent,
+      sourceText: xmlContent,
+      destination: 'serialized',
+      stylesheetParams: {
+        'Q{}limit': limit,
+        'Q{}transformedFeedUrl': transformedFeedUrl
       }
-    }
+    }, 'async');
+    
+    return result.principalResult;
   }
 
   test('should handle malformed XML', async () => {
