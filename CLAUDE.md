@@ -19,3 +19,6 @@ When transforming podcast feeds there is an atom:link element that needs to be u
 
 ## Development Commands
 - `npm run start` - Start the service
+
+## Future Work
+- Handle rdf:RDF and atom:feed structured feeds
